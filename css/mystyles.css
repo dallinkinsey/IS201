@@ -1,0 +1,296 @@
+/* General Page Styling */
+body {
+    background-color: #f4f1e8;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-image: url('../assets/img/desertbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+/* National Geographic Style Title */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+/* Navigation */
+nav {
+    background-color: #1c1c1c;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f5c542;
+    transform: scale(1.1);
+}
+
+/* Main Content */
+.mainbody {
+    padding: 40px;
+    background-color: white;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+/* Section Headers */
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #8b6f47;
+    border-left: 6px solid #f5c542;
+    padding-left: 10px;
+}
+
+/* Subheaders */
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 20px;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 25px auto;
+    width: 70%;
+    max-width: 600px;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+
+/* Image Hover Effect */
+img:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Lists */
+ol, ul {
+    text-align: left;
+    margin-left: 40px;
+}
+
+/* Jump links */
+a {
+    color: #8b6f47;
+}
+
+a:hover {
+    color: #f5c542;
+}
+
+/* Footer */
+.footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Video */
+iframe {
+    display: block;
+    margin: 30px auto;
+    border-radius: 6px;
+}
+
+.animal-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #f8f6f0;
+    padding: 25px;
+    margin: 30px 0;
+    border-left: 6px solid #f5c542;
+    border-radius: 5px;
+    align-items: flex-start;
+}
+
+/* Left side */
+.animal-list {
+    flex: 1;
+}
+
+.animal-list h3 {
+    margin-top: 0;
+}
+
+/* Right side image column */
+.animal-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Each image + caption block */
+.animal-card {
+    width: 240px;
+    text-align: center;
+}
+
+/* Images */
+.animal-card img {
+    width: 100%;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.animal-card img:hover {
+    transform: scale(1.05);
+}
+
+/* Captions */
+.caption {
+    font-size: 0.85em;
+    color: #555;
+    margin-top: 6px;
+    line-height: 1.3;
+}
+
+.feature-image {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.feature-image img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.feature-image img:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Right side image column */
+.plant-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Each image + caption block */
+.plant-card {
+    width: 200px;
+    text-align: center;
+}
+
+/* Images */
+.plant-card img {
+    width: 100%;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.plant-card img:hover {
+    transform: scale(1.05);
+}
+
+/* Plant section layout */
+.plant-section {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+/* LEFT: small plant images */
+.plant-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* smaller cards */
+.plant-gallery .plant-card {
+    width: 360px;
+    text-align: center;
+}
+
+/* RIGHT: feature image */
+.plant-feature {
+    flex: 1;
+    text-align: center;
+}
+
+/* feature image bigger */
+.plant-feature img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* hover effect */
+.plant-feature img:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* make small images slightly nicer */
+.plant-gallery img {
+    width: 100%;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.plant-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* captions (shared style) */
+.caption {
+    font-size: 0.85em;
+    color: #555;
+    margin-top: 6px;
+}
+
+/* mobile responsive */
+@media (max-width: 768px) {
+    .plant-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plant-gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .plant-gallery .plant-card {
+        width: 150px;
+    }
+}
